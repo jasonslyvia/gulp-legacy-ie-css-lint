@@ -1,0 +1,37 @@
+{
+  "name": "gulp-legacy-ie-css-lint",
+  "version": "1.0.0",
+  "description": "Ensure your CSS won't be discarded by IE 9 and below because of crazy stylesheets limitation of legacy IE.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jasonslyvia/gulp-legacy-ie-css-lint.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "jasonslyvia <jasonslyvia@gmail.com> (http://undefinedblog.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonslyvia/gulp-legacy-ie-css-lint/issues"
+  },
+  "homepage": "https://github.com/jasonslyvia/gulp-legacy-ie-css-lint",
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "chai-spies": "~0.7.0",
+    "gulp": "~3.9.0",
+    "istanbul": "~0.3.17",
+    "mocha": "~2.2.5",
+    "should": "~7.0.2",
+    "vinyl": "~0.5.0"
+  },
+  "dependencies": {
+    "css-selectors-count": "~1.0.1",
+    "gulp-util": "~3.0.6",
+    "through2": "~2.0.0"
+  }
+}
