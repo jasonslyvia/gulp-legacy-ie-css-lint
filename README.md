@@ -1,4 +1,4 @@
-# gulp-legacy-ie-css-lint
+# gulp-legacy-ie-css-lint [![Build Status](https://travis-ci.org/jasonslyvia/gulp-legacy-ie-css-lint.svg)](https://travis-ci.org/jasonslyvia/gulp-legacy-ie-css-lint) [![npm version](https://badge.fury.io/js/gulp-legacy-ie-css-lint.svg)](http://badge.fury.io/js/gulp-legacy-ie-css-lint)
 
 A Gulp plugin that ensure your CSS won't be discarded by IE 9 and below because of crazy stylesheets limitation of legacy IE.
 
