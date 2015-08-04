@@ -18,6 +18,10 @@ gulp.task('style', function() {
 });
 ```
 
+>Example output:
+
+>![gulp-legacy-ie-css-lint](http://ww2.sinaimg.cn/mw1024/831e9385gw1euqxfn4wylj20ea013q33.jpg)
+
 ## Options
 
 ### throw
