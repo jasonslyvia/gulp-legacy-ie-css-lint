@@ -15,8 +15,7 @@ module.exports = function(opt) {
 
   return through.obj(function(file, encoding, cb) {
     if (file.isNull()) {
-      this.push(file);
-      cb();
+      cb(null, file);
       return;
     }
 
@@ -49,9 +48,9 @@ module.exports = function(opt) {
       }
     }
 
-    this.push(file);
-    cb();
-  }, function() {
+    cb(null, file);
+  }, function(cb) {
     logged = false;
+    cb(null);
   });
 }

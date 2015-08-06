@@ -1,6 +1,6 @@
 {
   "name": "gulp-legacy-ie-css-lint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ensure your CSS won't be discarded by IE 9 and below because of crazy stylesheets limitation of legacy IE.",
   "main": "index.js",
   "scripts": {
